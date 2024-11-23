@@ -59,11 +59,19 @@ The goal of this course is to integrate practical and theoretical aspects in an 
 - **Robots**: Hands-on experience with commissioning physical robots.
 - **Collaboration Tools**: GitLab for version control, issue tracking, and documentation.
 
----
-
-## How to Get Started
-
-1. **Clone the Repository**  
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+---cps-development/
+├── src/
+│   ├── controllers/        # Robot control logic and implementations
+│   ├── models/             # 3D models (UT), digital twin models (RPTU)
+│   └── robot_programs/     # Code for robot programming and commissioning
+├── docs/
+│   ├── design_documents/   # Design reports, 3D layout descriptions
+│   └── user_guides/        # Guides for using models, simulations, and robots
+├── design/                 # UT: Layouts and 3D designs
+├── experiments/            # Experiment data and analysis results
+├── config/                 # Configuration files for simulations and robot deployment
+├── tests/                  # Unit and integration test cases
+├── data/                   # Data for physical/virtual measurements and simulation inputs
+├── results/                # Outputs from simulations, experiments, and tests
+├── scripts/                # Automation and deployment scripts
+└── README.md               # Project documentation
