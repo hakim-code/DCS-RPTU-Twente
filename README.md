@@ -59,7 +59,10 @@ The goal of this course is to integrate practical and theoretical aspects in an 
 - **Robots**: Hands-on experience with commissioning physical robots.
 - **Collaboration Tools**: GitLab for version control, issue tracking, and documentation.
 
----cps-development/
+# Repository Structure
+
+```plaintext
+cps-development/
 ├── src/
 │   ├── controllers/        # Robot control logic and implementations
 │   ├── models/             # 3D models (UT), digital twin models (RPTU)
