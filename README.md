@@ -76,5 +76,5 @@ cps-development/
 ├── tests/                  # Unit and integration test cases
 ├── data/                   # Data for physical/virtual measurements and simulation inputs
 ├── results/                # Outputs from simulations, experiments, and tests
-├── scripts/                # Automation and deployment scripts
+├── scripts/                # Any scripts we use for simulation/ parameterized 3D Model
 └── README.md               # Project documentation
