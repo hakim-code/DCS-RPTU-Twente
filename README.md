@@ -61,20 +61,18 @@ The goal of this course is to integrate practical and theoretical aspects in an 
 
 # Repository Structure
 
-```plaintext
-cps-development/
+```plaintextcps-development/
 ├── src/
-│   ├── controllers/        # Robot control logic and implementations
-│   ├── models/             # 3D models (UT), digital twin models (RPTU)
-│   └── robot_programs/     # Code for robot programming and commissioning
+│   ├── controllers/        # UT: Robot control logic and implementations
+│   ├── models/             # 3D models (UT), digital twin models/MATLAB Simulink (RPTU)
 ├── docs/
-│   ├── design_documents/   # Design reports, 3D layout descriptions
+│   ├── design_documents/   # UT: Design 3D model, assembly line, layout descriptions 
 │   └── user_guides/        # Guides for using models, simulations, and robots
-├── design/                 # UT: Layouts and 3D designs
-├── experiments/            # Experiment data and analysis results
-├── config/                 # Configuration files for simulations and robot deployment
-├── tests/                  # Unit and integration test cases
-├── data/                   # Data for physical/virtual measurements and simulation inputs
-├── results/                # Outputs from simulations, experiments, and tests
-├── scripts/                # Any scripts we use for simulation/ parameterized 3D Model
+|   └── assignment_sheet/   # assignment sheet from prof/module handbook.     
+├── design/                 # UT: Layouts and 3D designs models, solidwork parts
+├── experiments/            # UT: Experiment data and analysis results
+├── config/                 # RPTU: Configuration files for simulations and robot deployment
+├── tests/                  # Unit and integration test cases: Digital Twin (RPTU), physical test scenario (UT)
+├── results/                # Outputs from simulations, current findings
+|   └── Presentation/       # milenstone, is-state, intermediate solution
 └── README.md               # Project documentation
